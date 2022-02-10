@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function edit() {
-  return <div>edit</div>;
+export default function EditPage() {
+  return <div>E</div>;
 }

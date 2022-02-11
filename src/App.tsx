@@ -29,10 +29,10 @@ const App: React.FC = () => {
         </nav>
         <br />
         <Routes>
-          <Route path="/add" element={AddPage} />
-          <Route path="/edit/:id" element={EditPage} />
-          <Route path="/index" element={IndexPage} />
-          <Route path="/" element={IndexPage} />
+          <Route path="/add" element={<AddPage />} />
+          <Route path="/edit/:id" element={<EditPage />} />
+          <Route path="/index" element={<IndexPage />} />
+          <Route path="/" element={<IndexPage />} />
         </Routes>
       </div>
     </Router>
